@@ -64,10 +64,10 @@ function backgroundSwap() {
   let hour = date.getHours();
 
   if (hour >= 18) {
-    document.body.style.backgroundImage = "url('./bg-night.jpg')";
+    document.body.style.backgroundImage = "url('./assets/bg-night.jpg')";
   }
   else if (hour < 18) {
-    document.body.style.backgroundImage = "url('./bg-day.jpg')";
+    document.body.style.backgroundImage = "url('./assets/bg-day.jpg')";
   }
 }
 backgroundSwap();
